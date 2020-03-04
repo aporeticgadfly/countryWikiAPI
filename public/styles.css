@@ -1,0 +1,346 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+  width:100%;
+}
+
+body{
+  width:100%;
+}
+
+div {
+  display: inline-block;
+  width:100%;
+}
+
+.countryCard {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 80%);
+  width:91%;
+}
+
+.countryCard2 {
+  border-radius: 5px;
+}
+
+img {
+  width:100%;
+  height:13rem;
+  border-radius: 5px;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 2.5%;
+  margin-top:1.5rem;
+}
+
+nav {
+  display: flex;
+  width:100%;
+  /*background-color: hsl(0, 0%, 100%);*/
+  height:5rem;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 80%);
+}
+
+.converter {
+  margin-left: auto;
+  margin-right: 2.5%;
+  border: none;
+  width: 7rem;
+  background-color: hsl(0, 0%, 100%);
+  outline: none;
+  box-shadow: none !important;
+}
+
+.fa-moon {
+  margin-right: 1rem;;
+}
+
+.dropdown {
+  position:relative;
+  margin-left: auto;
+  width:12rem;
+  margin-right: 2.5%;
+  border-radius: 5px;
+}
+
+.fa-chevron-down {
+  margin-left: 1rem;
+}
+
+.dropdown-content {
+  display:none;
+  background-color: hsl(0, 0%, 100%);
+  width:12rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+  position: absolute;
+}
+
+.inputs {
+  display:flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.dropbtn {
+  margin-left: auto;
+  width:12rem;
+  padding:0.6rem;
+  border: none;
+  background-color:hsl(0, 0%, 100%);
+}
+
+.droplink {
+  display:block;
+  border:none;
+  background-color:hsl(0, 0%, 100%);
+  margin-left: 8%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.droplink span {
+  font-weight: 100;
+}
+
+.dropspan {
+  margin-right: 2.3rem;
+  font-weight: 100;
+}
+
+.searchbar {
+  margin-left: 2.5%;
+}
+
+.cards {
+  display: grid;
+  width:95%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.countryCardDiv {
+  padding-bottom: 20rem;
+}
+
+p {
+  color: hsl(200, 15%, 8%);
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.last {
+  margin-bottom: 1.5rem;
+}
+
+.fa-search {
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+}
+
+input {
+  border:none;
+  margin-top: 0.3rem;
+  margin-bottom: 0.7rem;
+  outline: none;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: none !important;
+}
+
+.divInput {
+  width:15rem;
+  margin-left: 2.5%;
+  border-radius: 3px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 5px gray;
+}
+
+h3 {
+  color:black;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+span {
+  font-weight: 600;
+}
+
+#root {
+  background-color: hsl(0, 0%, 97%)
+}
+
+/* singleCard */
+
+.container {
+  width:95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.couFlag {
+  width:75%;
+  margin-right: 25%;
+  height:20rem;
+}
+
+.rightDiv {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.couDetails {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+}
+
+.backbtn {
+  border: none;
+  background-color: hsl(0, 0%, 100%);
+  width:5rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 80%);
+  margin-left: 2.5%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.borderBtns {
+  border:none;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 5px hsl(0, 0%, 80%);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.borderBtns p {
+  text-align: center;
+  margin:0;
+}
+
+.borderDiv {
+
+}
+
+.fa-arrow-left {
+  margin-right: 0.7rem;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+@media (max-width:1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .couFlag {
+    height:15rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .inputs {
+    display: block;
+  }
+
+  .countryCard {
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .divInput {
+    display: block;
+    width:91%;
+  }
+
+  .dropdown {
+    30%;
+  }
+
+  .dropbtn {
+    margin-top: 1rem;
+    margin-left: 7.5%;
+    width:100%;
+  }
+
+  .dropdown-content {
+    margin-left: 7.5%;
+    width:100%;
+  }
+
+  h1{
+    font-size:1rem;
+    margin-top: 1.8rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .rightDiv {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+  }
+
+  h2 {
+    margin-left: 5%;
+  }
+
+  .borderDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .couFlag {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:15rem;
+  }
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
